@@ -1,1 +1,1 @@
-console.log("Hello This is coming from index.js in source");
+(()=>{"use strict";console.log("Hello This is coming from index.js"),function(){const e=document.getElementById("content"),t=document.createElement("h1");t.textContent="Welcome to the Krusty Krab",e.appendChild(t);const n=document.createElement("p");n.textContent="The krusty krab is the only place in Bikini Bottom where you can eat the world famous, krabby patty!",e.appendChild(n)}()})();
