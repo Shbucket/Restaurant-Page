@@ -1,3 +1,5 @@
+import bottom from './'
+
 export  function loadHome() {
   const content = document.getElementById("content");
   const header = document.createElement("h1");
@@ -7,6 +9,7 @@ export  function loadHome() {
   const para = document.createElement('p')
   para.textContent = 'The krusty krab is the only place in Bikini Bottom where you can eat the world famous, krabby patty!';
   content.appendChild(para)
-
+ const Bikini = new Image()
+ Bikini.src 
 
 }
