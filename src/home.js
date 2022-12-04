@@ -3,8 +3,8 @@ import patty from './krabby-patty.png'
 
 export function loadHome() {
   const content = document.getElementById("content");
-  const header = document.createElement("h1");
   const info = document.createElement('div')
+  info.classList.add('info');
 
   const krabs = new Image();
   krabs.src = krab;
@@ -12,6 +12,7 @@ export function loadHome() {
   content.appendChild(krabs);
 
   content.appendChild(info)
+  const header = document.createElement("h1");
   header.textContent = "Welcome to the Krusty Krab";
   info.appendChild(header);
 
@@ -25,5 +26,5 @@ export function loadHome() {
  krabby.classList.add('patty')
  info.appendChild(krabby)
 
- 
+
 }
