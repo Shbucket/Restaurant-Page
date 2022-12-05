@@ -8,7 +8,7 @@ export function loadHome() {
 
   const krabs = new Image();
   krabs.src = krab;
-  krabs.classList.add("Mr_Krabs");
+  krabs.classList.add("mascot");
   content.appendChild(krabs);
 
   content.appendChild(info)

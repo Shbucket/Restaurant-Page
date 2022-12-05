@@ -22,7 +22,7 @@ p {
   align-items: center;
   margin: 2%;
 }
-.Mr_Krabs {
+.mascot {
   width: 25%;
 }
 
@@ -39,3 +39,18 @@ button {
   border: none;
   font-size: 2em;
 }
+.grid {
+  display: grid;
+  grid-template: auto auto/ auto auto ;
+  grid-gap: 5%;
+  width: 50%;
+  margin: auto;
+}
+span{
+  font-size: 2em;
+  font-weight: bold;
+}
+.gItem{
+  text-align: center;
+  width: 50%;
+} 

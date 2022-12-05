@@ -1,4 +1,5 @@
-import * as test from './home.js'
+import * as home from './home.js'
+import * as menu from './menu.js'
 import "./style.css";
 console.log("Hello This is coming from index.js");
-test.loadHome()
+menu.loadMenu()
