@@ -6,6 +6,9 @@ import krabby from "./krabby-patty.png";
 
 export function loadMenu() {
   const content = document.getElementById("content");
+  content.replaceChildren()
+
+
   const grid = document.createElement("div");
   grid.classList.add("grid");
   const para = document.createElement("p");
@@ -13,11 +16,13 @@ export function loadMenu() {
   sponge.classList.add("mascot");
   sponge.src = bob;
   content.appendChild(sponge);
+  const info = document.createElement("div");
+  info.classList.add("info");
+  content.appendChild(info);
   para.textContent =
     "Try out the latest items we have to offer here at the krusty krab. Made fresh by the best fry cook in bikini bottom.";
-  content.appendChild(para);
-
-  document.body.appendChild(grid);
+  info.appendChild(para);
+info.appendChild(grid);
   const item1 = document.createElement("div");
   item1.classList.add('gItem')
   const item2 = document.createElement("div");
@@ -49,10 +54,11 @@ export function loadMenu() {
   item3.appendChild(aTitle);
   const patty = new Image();
   patty.src = krabby;
+
   grid.appendChild(item4);
   item4.appendChild(patty);
   const kTitle = document.createElement("span");
   kTitle.textContent = "Krabby Patty";
   item4.appendChild(kTitle);
-  //create grid item menu with title under image
+  
 }
