@@ -31,4 +31,6 @@ export function loadHome() {
 
   const grid = document.querySelector('grid')
   grid.replaceChildren()
+
+  content.replaceChildren();
 }

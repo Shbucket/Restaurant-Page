@@ -1,32 +1,30 @@
 * {
   margin: 0;
   padding: 0;
-   font-family: 'Caveat' ;
+  font-family: "Caveat";
+  color: white
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
-body {
-  background: url("./Bikini-bottom.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: auto;
-  height: 100%;
+html {
+  background: url("./Bikini-bottom\ .png") no-repeat center center fixed;
 }
 
 h1 {
   text-align: center;
-
+  font-size: 3em;
 }
 p {
   text-align: center;
-  font-size: 2em;
+  font-size: 4em;
+  font-weight: bold;
 }
 #content {
   display: flex;
   align-items: center;
   margin: 2%;
-  width: auto;
+  width: fit-content;
 }
 .mascot {
   width: 25%;
@@ -47,21 +45,23 @@ button {
   font-size: 2em;
 }
 .grid {
+  margin-top: 3%;
   display: grid;
-  grid-template: auto auto/ auto auto ;
+  grid-template: auto auto/ auto auto;
   grid-gap: 5%;
   width: 50%;
   margin: auto;
 }
-span{
-  font-size: 2em;
+span {
+  text-align: center;
+  font-size: 3em;
   font-weight: bold;
 }
-.gItem{
+.gItem {
   text-align: center;
-  width: 50%;
-} 
-.patty{
+  width: 70%;
+}
+.patty {
   width: 50%;
   margin: auto;
 }
